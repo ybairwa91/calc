@@ -5,7 +5,7 @@ export default function Message({ billValue, selectOption, selectF }) {
   let selectFNum = Number(selectF);
   let billValueNum = Number(billValue);
   let averageIs = (selectOptionNum + selectFNum) / 2;
-  
+
   return (
     <h3>
       You pay {billValueNum + averageIs}$ ({billValueNum}+{averageIs})$

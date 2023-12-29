@@ -20,7 +20,7 @@ export default function Friend({ selectF, setSelectF }) {
   );
 }
 
-Friend.prototype = {
+Friend.propTypes = {
   selectF: PropTypes.any.isRequired,
   setSelectF: PropTypes.any.isRequired,
 };
